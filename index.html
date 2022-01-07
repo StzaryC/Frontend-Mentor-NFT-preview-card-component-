@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-[#0D1A2D] flex flex-col items-center h-screen justify-evenly">
+  <div class="card font-[font-Yantramanav sans-serif] h-auto sm:w-[375px] p-5 bg-[#15273F] rounded-2xl mx-auto my-10">
+    <div class="wrap w-[95%] mx-auto">
+    <div class="see_equilivrium relative">
+      <img src="images/image-equilibrium.jpg" alt="ilustration" class="w-full mx-auto rounded-lg">
+      <div class="icon_eye cursor-pointer absolute left-0 top-0 h-full w-full rounded-lg opacity-0 hover:opacity-100 hover:bg-[#0ff6] flex items-center justify-center hover:text-[#fff]">
+        EQUILIBRIUM
+      </div>
+    </div>    
+    <h2 class=" my-5 text-white text-[25px] transition-duration-600 hover:text-[cyan] cursor-pointer">Equilibrium #3429</h2>
+    <p class="text-lg my-5 text-white opacity-60">Our Equilibrium collection promotes balance and calm.</p>
+    <div class="eth_day flex justify-between">
+      <span class="flex text-[cyan] items-center">
+        <img src="images/icon-ethereum.svg" alt="" class="mr-2 h-5"> 0.041 ETH
+      </span>
+      <span class="flex text-white opacity-70 items-center">
+        <img src="images/icon-clock.svg" class="mr-2 h-5"/> 3 days left
+      </span>
+    </div>
+    <hr class="my-5 opacity-20 h-2">
+    <div class="create_of flex items-center mt-5 justify-start">
+      <img src="images/image-avatar.png" alt="" class="h-10 border-white border rounded-full">
+      <p class="text-blue-200 opacity-60 ml-5 mr-2 font-bold text-lg">Creation of</p>
+      <a href="#" class="text-white transition-duration-600 hover:text-[cyan]">Jules Wyvern</a>
+    </div>
+    </div>  
+  </div>
+  
+
+  <div class="attribution text-white">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/StzaryC/Frontend-Mentor-NFT-preview-card-component-.git">Gustavo Park</a>.
+  </div>
+</body>
+</html>
